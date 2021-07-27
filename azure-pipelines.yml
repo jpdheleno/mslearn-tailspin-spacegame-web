@@ -7,10 +7,7 @@ trigger:
 - main
 
 pool:
-  # vmImage: 'windows-latest'
-  name: 'MyAgentPool'
-  demands: 
-  - npm
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
